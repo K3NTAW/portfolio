@@ -201,7 +201,7 @@ const GitHubStats: React.FC<GitHubStatsProps> = ({ username }) => {
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              {stats.topLanguages.map((lang, index) => (
+              {stats.topLanguages.map((lang) => (
                 <div key={lang.name} className="flex items-center justify-between">
                   <div className="flex items-center space-x-2">
                     <div 

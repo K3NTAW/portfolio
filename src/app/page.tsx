@@ -1,4 +1,3 @@
-import Image from "next/image";
 import GitHubProjectsDisplay from '@/components/GitHubProjectsDisplay';
 import GitHubStats from '@/components/GitHubStats';
 import { ThemeToggle } from '@/components/theme-toggle';

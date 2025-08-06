@@ -20,7 +20,10 @@ interface GitHubEvent {
   repo: {
     name: string;
   };
-  payload: any;
+  payload: {
+    commits?: Array<{ message: string }>;
+    action?: string;
+  };
   created_at: string;
 }
 
