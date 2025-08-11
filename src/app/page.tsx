@@ -1,5 +1,3 @@
-"use client";
-
 import GitHubProjectsDisplay from '@/components/GitHubProjectsDisplay';
 import GitHubStats from '@/components/GitHubStats';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
