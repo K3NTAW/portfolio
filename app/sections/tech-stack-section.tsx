@@ -37,14 +37,18 @@ export function TechStackSection() {
     >
       <div className="mx-auto w-full max-w-6xl">
         <h2 className="mb-16 border-b border-slate-200 pb-4 text-xs font-medium uppercase tracking-wider text-slate-500">
-          Technical Capabilities
+          What I Do
         </h2>
 
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
-          <CapabilityColumn title="System Architecture" items={architectureItems} />
-          <CapabilityColumn title="Data Engineering" items={dataItems} />
-          <CapabilityColumn title="Backend Development" items={backendItems} />
+          <CapabilityColumn title="Product Systems" items={architectureItems} />
+          <CapabilityColumn title="Delivery Focus" items={dataItems} />
+          <CapabilityColumn title="Technical Execution" items={backendItems} />
         </div>
+        <p className="mt-10 max-w-3xl text-sm font-light leading-relaxed text-slate-700">
+          My approach combines product thinking with execution speed, building
+          systems that deliver visible value from day one.
+        </p>
       </div>
     </section>
   );

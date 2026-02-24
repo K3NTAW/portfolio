@@ -9,11 +9,11 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#profile", label: "Profile" },
-  { href: "#trust", label: "Trust" },
-  { href: "#expertise", label: "Capabilities" },
-  { href: "#work", label: "Selected Work" },
-  { href: "#direction", label: "Direction" },
-  { href: "#principles", label: "Principles" }
+  { href: "#expertise", label: "What I Do" },
+  { href: "#work", label: "Systems Shipped" },
+  { href: "#principles", label: "Systems Philosophy" },
+  { href: "#direction", label: "Current Focus" },
+  { href: "#trust", label: "Credentials" }
 ];
 
 export function Navigation() {
@@ -26,7 +26,7 @@ export function Navigation() {
           <Link href="/" className="text-sm font-medium tracking-tight text-slate-900">
             Kenta Waibel
           </Link>
-          <span className="text-xs text-slate-500">Systems Engineer</span>
+          <span className="text-xs text-slate-500">Independent Software Engineer</span>
         </div>
 
         <div className="hidden gap-8 text-xs font-medium tracking-wide text-slate-600 md:flex">

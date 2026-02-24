@@ -24,25 +24,26 @@ const lora = Lora({
 export const metadata: Metadata = {
   metadataBase: new URL(social.website),
   title: {
-    default: "Kenta Waibel | Systems-Oriented Software Engineer",
+    default: "Kenta Waibel | Independent Software Engineer",
     template: "%s | Kenta Waibel"
   },
   description:
-    "Designing structured, audit-ready software systems for complex business environments in Zurich, with a focus on financial governance and operational reliability.",
+    "Building structured, production-grade business systems with long-term product ownership in mind.",
   alternates: {
     canonical: "/"
   },
   keywords: [
-    "systems-oriented software engineer",
-    "zurich software engineer",
-    "financial governance software",
-    "audit-ready systems",
-    "enterprise workflow architecture"
+    "independent software engineer",
+    "zurich full stack developer",
+    "production-grade business systems",
+    "shopify integration engineer",
+    "rbac admin dashboards",
+    "app store developer switzerland"
   ],
   openGraph: {
-    title: "Kenta Waibel | Systems-Oriented Software Engineer",
+    title: "Kenta Waibel | Independent Software Engineer",
     description:
-      "Designing structured, audit-ready software systems for complex business environments.",
+      "Structured, production-grade business systems with practical deployment experience and long-term product ownership.",
     url: "/",
     siteName: "Kenta Waibel Portfolio",
     locale: "en_US",
@@ -50,9 +51,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kenta Waibel | Systems-Oriented Software Engineer",
+    title: "Kenta Waibel | Independent Software Engineer",
     description:
-      "Portfolio focused on governance-grade software architecture, data integrity, and enterprise reliability."
+      "Calm, execution-focused software engineering with real deployments from Zurich."
   },
   robots: {
     index: true,

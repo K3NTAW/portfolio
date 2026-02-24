@@ -1,56 +1,72 @@
 [
   {
-    "title": "Automated Invoice Verification Engine",
-    "problem": "Manual processing of high-volume supplier invoices led to recurring audit discrepancies, duplicate payments, and delayed closing cycles.",
-    "role": "Lead System Architect",
-    "complexity": "Multi-layered approval hierarchies requiring strict conditional logic based on cost centers and signing authority matrices.",
-    "technicalDepth": "Implementation of a deterministic matching algorithm with robust, immutable state tracking for every state transition.",
-    "outcome": "Deployed a verifiable digital trail that automated standard approvals and established a unified processing standard across operations.",
-    "impactMetrics": [
-      "Reduced duplicate-payment incidents by approximately 60%",
-      "Cut invoice processing time by nearly 50%",
-      "Improved pre-audit exception handling from reactive to proactive review"
+    "title": "Bakastore App (Live on App Store)",
+    "context": "Developed and deployed a production mobile application and backend infrastructure for a Swiss retail business operating within a tournament-driven niche.",
+    "challenge": "The store required a centralized digital system for tournaments, commerce operations, promotions, and customer loyalty.",
+    "role": "Independent software engineer with full ownership of product and delivery",
+    "built": [
+      "Full mobile application (Expo)",
+      "Backend architecture and API logic",
+      "Shopify integration and custom Shopify admin dashboard",
+      "POS extension",
+      "Role-based access control",
+      "Loyalty and customer card system",
+      "Analytics dashboard"
     ],
-    "architectureHighlights": [
-      "ERP import and normalization layer",
-      "Rules engine with approval matrix evaluation",
-      "Immutable event log for every state transition"
+    "technicalHighlights": [
+      "RBAC system for store roles and permissions",
+      "Shopify API integration across storefront and operations",
+      "Performance-focused frontend architecture",
+      "Secure backend structure for business workflows"
+    ],
+    "impact": [
+      "Centralized customer engagement, event management, and commerce workflows into one digital platform",
+      "Real-world production deployment currently in active use",
+      "Established a structured foundation for long-term product ownership and iteration"
     ]
   },
   {
-    "title": "Property Portfolio Data Aggregator",
-    "problem": "Fragmented financial reporting across multiple regional offices prevented real-time visibility into overall portfolio liquidity and operational expenses.",
-    "role": "Systems Engineer",
-    "complexity": "Aggregating disparate, unstructured data schemas from five distinct legacy ERP instances into a normalized relational model.",
-    "technicalDepth": "Built fault-tolerant synchronization pipelines utilizing constraint-based data validation to prevent upstream corruption.",
-    "outcome": "Established a single, definitive source of truth for executive oversight, enabling accurate on-demand reporting across the portfolio.",
-    "impactMetrics": [
-      "Consolidated data from 5 legacy ERP systems",
-      "Reduced monthly reconciliation overhead by more than 40%",
-      "Enabled same-day portfolio liquidity visibility for management"
+    "title": "KubbZuerich.ch",
+    "context": "Local KUBB club in Zurich organizing tournaments and community events.",
+    "challenge": "Events were coordinated through WhatsApp and manual follow-up, creating avoidable operational chaos.",
+    "role": "Product engineer for platform design and implementation",
+    "built": [
+      "Tournament hosting platform",
+      "Registration system for players and teams",
+      "Backend admin overview for organizers",
+      "Centralized public website hub"
     ],
-    "architectureHighlights": [
-      "Source adapters for heterogeneous ERP schemas",
-      "Validation and constraint gate before persistence",
-      "Reporting model optimized for executive dashboards"
+    "technicalHighlights": [
+      "Structured admin controls for event operations",
+      "Clear backend logic for registrations and status updates",
+      "Mobile-ready UI for participants and organizers"
+    ],
+    "impact": [
+      "Eliminated fragmented event coordination",
+      "Created clear organizer visibility across tournaments",
+      "Improved operational efficiency for the club"
     ]
   },
   {
-    "title": "Audit-Ready Compliance Framework",
-    "problem": "Lack of traceability in high-value capital expenditure approvals exposed the organization to significant regulatory and compliance risks.",
-    "role": "Backend Developer",
-    "complexity": "Integrating cryptographic logging mechanisms into standard workflow applications without disrupting established user operations.",
-    "technicalDepth": "Design of an append-only event sourcing architecture to guarantee non-repudiation of all managerial actions.",
-    "outcome": "Delivered an oversight framework that improved traceability for high-value approvals and supported strict audit preparation workflows.",
-    "impactMetrics": [
-      "Standardized review paths for high-value capital approvals",
-      "Improved audit preparation turnaround by more than 30%",
-      "Raised change-history completeness for managerial decisions"
+    "title": "Private Home Server Infrastructure",
+    "context": "A self-hosted environment designed to reduce dependency on paid cloud subscriptions.",
+    "challenge": "Needed stable, secure, remotely accessible services while maintaining control over deployment and infrastructure cost.",
+    "role": "Infrastructure builder and operator",
+    "built": [
+      "Dockerized core services",
+      "Kubernetes cluster setup",
+      "Remote global access architecture",
+      "Custom container configuration and service orchestration"
     ],
-    "architectureHighlights": [
-      "Append-only event stream for approval actions",
-      "Tamper-evident hash chaining across critical events",
-      "Role-aware review interface for governance teams"
+    "technicalHighlights": [
+      "Containerization and orchestration depth",
+      "Security-aware networking and service exposure",
+      "Practical DevOps and systems operations experience"
+    ],
+    "impact": [
+      "Reduced dependence on recurring paid services",
+      "Built strong hands-on infrastructure capability",
+      "Improved confidence in production deployment architecture"
     ]
   }
 ]

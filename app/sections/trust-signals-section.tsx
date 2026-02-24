@@ -5,7 +5,7 @@ export function TrustSignalsSection() {
     <section id="trust" className="w-full border-b border-slate-200 bg-white px-6 py-16 md:px-8">
       <div className="mx-auto w-full max-w-6xl">
         <h2 className="mb-10 border-b border-slate-200 pb-4 text-xs font-medium uppercase tracking-wider text-slate-500">
-          Credibility and Trust Signals
+          Credibility Anchors
         </h2>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -23,7 +23,7 @@ export function TrustSignalsSection() {
         <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <h3 className="font-serif mb-4 text-2xl font-medium tracking-tight text-slate-900">
-              Governance-oriented implementation standards
+              Signals that matter for real-world trust
             </h3>
             <ul className="space-y-3 text-sm font-light leading-relaxed text-slate-700">
               {trustSignals.map((signal) => (

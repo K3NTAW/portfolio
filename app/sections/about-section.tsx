@@ -10,25 +10,13 @@ export function AboutSection() {
 
         <div className="flex flex-col gap-6 text-base font-light leading-relaxed text-slate-700 lg:col-span-8 lg:col-start-5">
           <p>
-            Software in corporate environments is fundamentally about
-            establishing order. My approach to software engineering centers on
-            systems thinking, building multi-user business applications that
-            serve as a reliable, immutable source of truth for operational and
-            executive teams.
+            I design and implement multi-user web and mobile systems that
+            replace fragmented workflows with structured, reliable applications.
           </p>
           <p>
-            I specialize in addressing complex administrative and financial
-            workflows. By deeply understanding underlying business realities
-            before writing code, I deliver architectures that prioritize
-            reliability, traceability, and long-term maintainability over
-            transient technological trends.
-          </p>
-          <p>
-            With a dedicated interest in financial governance and operational
-            clarity, I design applications that bridge the gap between technical
-            infrastructure and rigorous corporate oversight, specifically
-            tailored for sophisticated management and administrative
-            environments.
+            My focus lies in operational clarity, permission architecture, and
+            scalable backend systems, building software that organizations can
+            depend on long-term.
           </p>
         </div>
       </div>

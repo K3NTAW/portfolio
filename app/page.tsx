@@ -15,11 +15,11 @@ export default function HomePage() {
       <main id="main-content" className="overflow-x-hidden">
         <HeroSection />
         <AboutSection />
-        <TrustSignalsSection />
         <TechStackSection />
         <ProjectsSection />
         <NowSection />
         <HowIBuildSection />
+        <TrustSignalsSection />
       </main>
       <ContactSection />
     </>

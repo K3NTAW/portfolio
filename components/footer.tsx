@@ -13,8 +13,8 @@ export function Footer() {
             Contact
           </h2>
           <p className="max-w-sm text-sm font-light text-slate-600">
-            Available for professional discussions regarding system architecture,
-            technical consulting, and specialized software engineering requirements.
+            Available for consulting or collaboration on product systems, admin
+            platforms, and high-impact business software.
           </p>
           <ContactForm />
         </div>
@@ -36,6 +36,15 @@ export function Footer() {
             LinkedIn
             <ArrowUpRight size={14} />
           </a>
+          <a
+            href={social.github}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 text-sm font-medium tracking-tight text-slate-600 transition-colors duration-200 hover:text-sky-900"
+          >
+            GitHub
+            <ArrowUpRight size={14} />
+          </a>
           <Link
             href="/privacy"
             className="text-xs uppercase tracking-wide text-slate-500 transition-colors hover:text-slate-900"
@@ -46,7 +55,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-20 flex w-full max-w-6xl flex-col items-start justify-between gap-4 text-xs font-medium tracking-wide text-slate-400 md:flex-row md:items-center">
-        <span>{`© ${new Date().getFullYear()} Kenta Waibel. Systems Engineering.`}</span>
+        <span>{`© ${new Date().getFullYear()} Kenta Waibel. Product Engineering.`}</span>
         <span>{social.location}</span>
       </div>
     </footer>

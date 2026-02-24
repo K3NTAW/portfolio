@@ -1,29 +1,31 @@
 export const trustMetrics = [
   {
-    label: "Legacy ERP systems consolidated",
-    value: "5",
-    note: "Normalized into one reporting model"
+    label: "App Store shipped product",
+    value: "1",
+    note: "Bakastore app live for real users"
   },
   {
-    label: "Audit prep acceleration",
-    value: "30%+",
-    note: "Faster evidence assembly for controls teams"
+    label: "Real Swiss business deployments",
+    value: "2+",
+    note: "Bakastore and KubbZuerich use cases"
   },
   {
-    label: "Duplicate payment reduction",
-    value: "60%",
-    note: "Rules-driven verification and event tracking"
+    label: "Language proficiency",
+    value: "C2",
+    note: "Cambridge English Proficiency, Grade A"
   }
 ] as const;
 
 export const trustSignals = [
-  "Designed for GDPR and Swiss FADP-aligned data governance processes",
-  "Built with immutable, append-only event history for critical workflows",
-  "Structured around role-based access control and approval matrices"
+  "App Store published developer with real production usage (Bakastore)",
+  "Open-source and product work visible through GitHub",
+  "Cambridge English Proficiency C2 (Grade A)",
+  "Hands-on full-cycle delivery from UX to backend and deployment",
+  "Based in Zurich with a product-focused, entrepreneurial execution style"
 ] as const;
 
 export const testimonial = {
   quote:
-    "Architecture-first implementation gave us a clear audit trail and fewer operational exceptions across finance workflows.",
-  attribution: "Client reference available on request (NDA-protected)"
+    "Real execution and shipping discipline matter more than inflated titles. This portfolio reflects what is built and used.",
+  attribution: "Execution-first positioning"
 } as const;
