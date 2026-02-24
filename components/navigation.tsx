@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#profile", label: "Profile" },
+  { href: "#trust", label: "Trust" },
   { href: "#expertise", label: "Capabilities" },
   { href: "#work", label: "Selected Work" },
   { href: "#direction", label: "Direction" },
@@ -22,7 +23,7 @@ export function Navigation() {
     <nav className="fixed left-0 top-0 z-50 w-full border-b border-slate-200 bg-[#FAFAFA]/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-8 md:py-5">
         <div className="flex flex-col">
-          <Link href="#" className="text-sm font-medium tracking-tight text-slate-900">
+          <Link href="/" className="text-sm font-medium tracking-tight text-slate-900">
             Kenta Waibel
           </Link>
           <span className="text-xs text-slate-500">Systems Engineer</span>

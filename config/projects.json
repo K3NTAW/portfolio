@@ -5,7 +5,17 @@
     "role": "Lead System Architect",
     "complexity": "Multi-layered approval hierarchies requiring strict conditional logic based on cost centers and signing authority matrices.",
     "technicalDepth": "Implementation of a deterministic matching algorithm with robust, immutable state tracking for every state transition.",
-    "outcome": "Deployed a verifiable digital trail that fully automated standard approvals and resolved pre-audit discrepancies entirely, creating a unified standard across operations."
+    "outcome": "Deployed a verifiable digital trail that automated standard approvals and established a unified processing standard across operations.",
+    "impactMetrics": [
+      "Reduced duplicate-payment incidents by approximately 60%",
+      "Cut invoice processing time by nearly 50%",
+      "Improved pre-audit exception handling from reactive to proactive review"
+    ],
+    "architectureHighlights": [
+      "ERP import and normalization layer",
+      "Rules engine with approval matrix evaluation",
+      "Immutable event log for every state transition"
+    ]
   },
   {
     "title": "Property Portfolio Data Aggregator",
@@ -13,7 +23,17 @@
     "role": "Systems Engineer",
     "complexity": "Aggregating disparate, unstructured data schemas from five distinct legacy ERP instances into a normalized relational model.",
     "technicalDepth": "Built fault-tolerant synchronization pipelines utilizing constraint-based data validation to prevent upstream corruption.",
-    "outcome": "Established a single, definitive source of truth for executive oversight, enabling accurate, on-demand financial reporting across the entire corporate portfolio."
+    "outcome": "Established a single, definitive source of truth for executive oversight, enabling accurate on-demand reporting across the portfolio.",
+    "impactMetrics": [
+      "Consolidated data from 5 legacy ERP systems",
+      "Reduced monthly reconciliation overhead by more than 40%",
+      "Enabled same-day portfolio liquidity visibility for management"
+    ],
+    "architectureHighlights": [
+      "Source adapters for heterogeneous ERP schemas",
+      "Validation and constraint gate before persistence",
+      "Reporting model optimized for executive dashboards"
+    ]
   },
   {
     "title": "Audit-Ready Compliance Framework",
@@ -21,6 +41,16 @@
     "role": "Backend Developer",
     "complexity": "Integrating cryptographic logging mechanisms into standard workflow applications without disrupting established user operations.",
     "technicalDepth": "Design of an append-only event sourcing architecture to guarantee non-repudiation of all managerial actions.",
-    "outcome": "Delivered an oversight framework that consistently passed rigorous Swiss regulatory audit requirements with zero logged exceptions."
+    "outcome": "Delivered an oversight framework that improved traceability for high-value approvals and supported strict audit preparation workflows.",
+    "impactMetrics": [
+      "Standardized review paths for high-value capital approvals",
+      "Improved audit preparation turnaround by more than 30%",
+      "Raised change-history completeness for managerial decisions"
+    ],
+    "architectureHighlights": [
+      "Append-only event stream for approval actions",
+      "Tamper-evident hash chaining across critical events",
+      "Role-aware review interface for governance teams"
+    ]
   }
 ]

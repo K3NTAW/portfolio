@@ -55,6 +55,8 @@ export function ContactForm() {
         Name
         <input
           required
+          minLength={2}
+          maxLength={100}
           value={data.name}
           onChange={(event) => setData({ ...data, name: event.target.value })}
           className="h-11 border border-slate-300 bg-white px-3 text-slate-900 outline-none focus:border-sky-900"
@@ -67,6 +69,7 @@ export function ContactForm() {
         <input
           required
           type="email"
+          maxLength={200}
           value={data.email}
           onChange={(event) => setData({ ...data, email: event.target.value })}
           className="h-11 border border-slate-300 bg-white px-3 text-slate-900 outline-none focus:border-sky-900"
@@ -79,6 +82,8 @@ export function ContactForm() {
         <textarea
           required
           rows={5}
+          minLength={10}
+          maxLength={2500}
           value={data.message}
           onChange={(event) =>
             setData({ ...data, message: event.target.value })
@@ -104,6 +109,8 @@ export function ContactForm() {
 
       {feedback ? (
         <p
+          role="status"
+          aria-live="polite"
           className={
             status === "error" ? "text-sm text-red-700" : "text-sm text-emerald-700"
           }

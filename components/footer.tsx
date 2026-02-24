@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 import { ContactForm } from "@/components/contact-form";
 import { social } from "@/config/social";
@@ -35,6 +36,12 @@ export function Footer() {
             LinkedIn
             <ArrowUpRight size={14} />
           </a>
+          <Link
+            href="/privacy"
+            className="text-xs uppercase tracking-wide text-slate-500 transition-colors hover:text-slate-900"
+          >
+            Privacy Policy
+          </Link>
         </div>
       </div>
 

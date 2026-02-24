@@ -12,7 +12,7 @@ export function AboutSection() {
           <p>
             Software in corporate environments is fundamentally about
             establishing order. My approach to software engineering centers on
-            systems thinking-building multi-user business applications that
+            systems thinking, building multi-user business applications that
             serve as a reliable, immutable source of truth for operational and
             executive teams.
           </p>

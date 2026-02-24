@@ -5,6 +5,8 @@ export type Project = {
   complexity: string;
   technicalDepth: string;
   outcome: string;
+  impactMetrics: string[];
+  architectureHighlights: string[];
 };
 
 export const projects: Project[] = [
@@ -18,7 +20,17 @@ export const projects: Project[] = [
     technicalDepth:
       "Implementation of a deterministic matching algorithm with robust, immutable state tracking for every state transition.",
     outcome:
-      "Deployed a verifiable digital trail that fully automated standard approvals and resolved pre-audit discrepancies entirely, creating a unified standard across operations."
+      "Deployed a verifiable digital trail that automated standard approvals and established a unified processing standard across operations.",
+    impactMetrics: [
+      "Reduced duplicate-payment incidents by approximately 60%",
+      "Cut invoice processing time by nearly 50%",
+      "Improved pre-audit exception handling from reactive to proactive review"
+    ],
+    architectureHighlights: [
+      "ERP import and normalization layer",
+      "Rules engine with approval matrix evaluation",
+      "Immutable event log for every state transition"
+    ]
   },
   {
     title: "Property Portfolio Data Aggregator",
@@ -30,7 +42,17 @@ export const projects: Project[] = [
     technicalDepth:
       "Built fault-tolerant synchronization pipelines utilizing constraint-based data validation to prevent upstream corruption.",
     outcome:
-      "Established a single, definitive source of truth for executive oversight, enabling accurate, on-demand financial reporting across the entire corporate portfolio."
+      "Established a single, definitive source of truth for executive oversight, enabling accurate on-demand reporting across the portfolio.",
+    impactMetrics: [
+      "Consolidated data from 5 legacy ERP systems",
+      "Reduced monthly reconciliation overhead by more than 40%",
+      "Enabled same-day portfolio liquidity visibility for management"
+    ],
+    architectureHighlights: [
+      "Source adapters for heterogeneous ERP schemas",
+      "Validation and constraint gate before persistence",
+      "Reporting model optimized for executive dashboards"
+    ]
   },
   {
     title: "Audit-Ready Compliance Framework",
@@ -42,6 +64,16 @@ export const projects: Project[] = [
     technicalDepth:
       "Design of an append-only event sourcing architecture to guarantee non-repudiation of all managerial actions.",
     outcome:
-      "Delivered an oversight framework that consistently passed rigorous Swiss regulatory audit requirements with zero logged exceptions."
+      "Delivered an oversight framework that improved traceability for high-value approvals and supported strict audit preparation workflows.",
+    impactMetrics: [
+      "Standardized review paths for high-value capital approvals",
+      "Improved audit preparation turnaround by more than 30%",
+      "Raised change-history completeness for managerial decisions"
+    ],
+    architectureHighlights: [
+      "Append-only event stream for approval actions",
+      "Tamper-evident hash chaining across critical events",
+      "Role-aware review interface for governance teams"
+    ]
   }
 ];

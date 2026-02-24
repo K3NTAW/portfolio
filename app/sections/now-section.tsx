@@ -16,7 +16,7 @@ export function NowSection() {
             My practice is currently focused on researching and building robust
             software systems around financial control and governance within Swiss
             business environments. This direction represents an evolution of my
-            ongoing commitment to operational accuracy-developing tools that
+            ongoing commitment to operational accuracy, developing tools that
             replace fragmented spreadsheets with unified, reliable, and auditable
             corporate architectures.
           </p>

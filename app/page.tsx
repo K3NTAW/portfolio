@@ -5,6 +5,7 @@ import { HowIBuildSection } from "@/app/sections/how-i-build-section";
 import { NowSection } from "@/app/sections/now-section";
 import { ProjectsSection } from "@/app/sections/projects-section";
 import { TechStackSection } from "@/app/sections/tech-stack-section";
+import { TrustSignalsSection } from "@/app/sections/trust-signals-section";
 import { Navigation } from "@/components/navigation";
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main id="main-content" className="overflow-x-hidden">
         <HeroSection />
         <AboutSection />
+        <TrustSignalsSection />
         <TechStackSection />
         <ProjectsSection />
         <NowSection />

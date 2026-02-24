@@ -24,6 +24,20 @@ export function HeroSection() {
           governance, structured data modeling, and ensuring long-term system
           integrity for enterprise operations.
         </p>
+        <div className="mt-8 flex flex-wrap gap-3">
+          <a
+            href="#work"
+            className="border border-slate-900 bg-slate-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-slate-800"
+          >
+            View selected work
+          </a>
+          <a
+            href="#contact"
+            className="border border-slate-300 px-5 py-2.5 text-sm font-medium text-slate-900 transition-colors hover:bg-slate-100"
+          >
+            Contact
+          </a>
+        </div>
       </div>
     </header>
   );
