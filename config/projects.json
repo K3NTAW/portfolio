@@ -2,7 +2,7 @@
   {
     "title": "Bakastore App (Live on App Store)",
     "context": "Developed and deployed a production mobile application and backend infrastructure for a Swiss retail business operating within a tournament-driven niche.",
-    "challenge": "The store required a centralized digital system for tournaments, commerce operations, promotions, and customer loyalty.",
+    "challenge": "The store was running events, promotions, and commerce workflows across disconnected tools and manual coordination.",
     "role": "Independent software engineer with full ownership of product and delivery",
     "built": [
       "Full mobile application (Expo)",
@@ -14,21 +14,21 @@
       "Analytics dashboard"
     ],
     "technicalHighlights": [
-      "RBAC system for store roles and permissions",
-      "Shopify API integration across storefront and operations",
-      "Performance-focused frontend architecture",
-      "Secure backend structure for business workflows"
+      "Structured permission model for staff and operational roles",
+      "Shopify integration across customer-facing and internal workflows",
+      "Performance-focused interfaces for frequent daily usage",
+      "Secure backend architecture supporting ongoing product ownership"
     ],
     "impact": [
-      "Centralized customer engagement, event management, and commerce workflows into one digital platform",
-      "Real-world production deployment currently in active use",
-      "Established a structured foundation for long-term product ownership and iteration"
+      "Replaced fragmented coordination with a single structured platform",
+      "Improved operational clarity for events, loyalty, and commerce activity",
+      "Production deployment is live and iterated based on real store usage"
     ]
   },
   {
     "title": "KubbZuerich.ch",
     "context": "Local KUBB club in Zurich organizing tournaments and community events.",
-    "challenge": "Events were coordinated through WhatsApp and manual follow-up, creating avoidable operational chaos.",
+    "challenge": "Events were coordinated through chat and manual follow-up, creating avoidable overhead and unclear ownership.",
     "role": "Product engineer for platform design and implementation",
     "built": [
       "Tournament hosting platform",
@@ -37,20 +37,20 @@
       "Centralized public website hub"
     ],
     "technicalHighlights": [
-      "Structured admin controls for event operations",
-      "Clear backend logic for registrations and status updates",
-      "Mobile-ready UI for participants and organizers"
+      "Organizer-facing control flows for event operations",
+      "Structured registration and status handling",
+      "Mobile-ready experience for participants and staff"
     ],
     "impact": [
-      "Eliminated fragmented event coordination",
-      "Created clear organizer visibility across tournaments",
-      "Improved operational efficiency for the club"
+      "Reduced coordination overhead for recurring tournaments",
+      "Created clear operational visibility for organizers",
+      "Replaced ad-hoc communication with a maintainable process"
     ]
   },
   {
     "title": "Private Home Server Infrastructure",
     "context": "A self-hosted environment designed to reduce dependency on paid cloud subscriptions.",
-    "challenge": "Needed stable, secure, remotely accessible services while maintaining control over deployment and infrastructure cost.",
+    "challenge": "Needed stable and secure remote access while reducing dependency on recurring third-party hosting costs.",
     "role": "Infrastructure builder and operator",
     "built": [
       "Dockerized core services",
@@ -59,14 +59,14 @@
       "Custom container configuration and service orchestration"
     ],
     "technicalHighlights": [
-      "Containerization and orchestration depth",
-      "Security-aware networking and service exposure",
-      "Practical DevOps and systems operations experience"
+      "Containerized service architecture with explicit deployment structure",
+      "Security-aware networking and remote access controls",
+      "Operational discipline for maintenance, monitoring, and recovery"
     ],
     "impact": [
-      "Reduced dependence on recurring paid services",
-      "Built strong hands-on infrastructure capability",
-      "Improved confidence in production deployment architecture"
+      "Replaced fragmented hosted tools with a cohesive infrastructure layer",
+      "Reduced recurring service dependency and improved cost control",
+      "Strengthened long-term systems ownership and operational readiness"
     ]
   }
 ]

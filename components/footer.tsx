@@ -10,23 +10,17 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-12 md:grid-cols-2">
         <div className="flex flex-col gap-4">
           <h2 className="font-serif text-3xl font-medium tracking-tight text-slate-900">
-            Contact
+            Professional Inquiries
           </h2>
           <p className="max-w-sm text-sm font-light text-slate-600">
-            Available for consulting or collaboration on product systems, admin
-            platforms, and high-impact business software.
+            If you are building or operating structured systems and seek
+            technical depth with architectural clarity, I am open to
+            professional discussion.
           </p>
           <ContactForm />
         </div>
 
         <div className="flex flex-col justify-start gap-6 md:items-end">
-          <a
-            href={`mailto:${social.email}`}
-            className="flex items-center gap-2 border-b border-slate-300 pb-1 text-base font-medium tracking-tight text-slate-900 transition-colors duration-200 hover:border-sky-900 hover:text-sky-900"
-          >
-            {social.email}
-            <ArrowUpRight size={16} />
-          </a>
           <a
             href={social.linkedIn}
             target="_blank"
@@ -35,6 +29,13 @@ export function Footer() {
           >
             LinkedIn
             <ArrowUpRight size={14} />
+          </a>
+          <a
+            href={`mailto:${social.email}`}
+            className="flex items-center gap-2 border-b border-slate-300 pb-1 text-base font-medium tracking-tight text-slate-900 transition-colors duration-200 hover:border-sky-900 hover:text-sky-900"
+          >
+            {social.email}
+            <ArrowUpRight size={16} />
           </a>
           <a
             href={social.github}

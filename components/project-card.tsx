@@ -35,7 +35,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </ul>
         </div>
         <div className="flex flex-col gap-2 md:col-span-2">
-          <span className="font-medium text-slate-900">Technical Highlights</span>
+          <span className="font-medium text-slate-900">Contribution</span>
           <ul className="list-disc space-y-1 pl-4">
             {project.technicalHighlights.map((metric) => (
               <li key={metric}>{metric}</li>
@@ -45,7 +45,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <div className="md:col-span-2">
           <figure className="border border-slate-200 bg-slate-50 p-4">
             <figcaption className="mb-3 text-xs font-medium uppercase tracking-wide text-slate-500">
-              Measurable Impact
+              Business Outcomes
             </figcaption>
             <div className="space-y-2 text-xs text-slate-700">
               {project.impact.map((step, index) => (

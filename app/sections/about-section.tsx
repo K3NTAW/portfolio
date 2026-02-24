@@ -18,6 +18,10 @@ export function AboutSection() {
             scalable backend systems, building software that organizations can
             depend on long-term.
           </p>
+          <p>
+            I take ownership beyond implementation, from product logic and
+            architecture decisions to ongoing iterations based on real usage.
+          </p>
         </div>
       </div>
     </section>

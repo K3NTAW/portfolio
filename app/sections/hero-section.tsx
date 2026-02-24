@@ -10,7 +10,7 @@ export function HeroSection() {
             Kenta Waibel
           </h1>
           <h2 className="text-sm uppercase tracking-wide text-slate-500">
-            Independent Software Engineer
+            Systems Engineer and Product Builder
           </h2>
         </div>
 
@@ -20,7 +20,12 @@ export function HeroSection() {
         </h3>
 
         <p className="max-w-2xl text-lg font-light leading-relaxed text-slate-600 md:text-xl">
-          Based in Zurich, Switzerland.
+          I build structured systems that help organizations replace fragmented
+          workflows with dependable, maintainable software infrastructure.
+        </p>
+        <p className="mt-4 max-w-2xl text-lg font-light leading-relaxed text-slate-600 md:text-xl">
+          I combine deep technical capability with a structured approach to
+          product design and operational clarity. Based in Zurich, Switzerland.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
