@@ -1,0 +1,47 @@
+export type Project = {
+  title: string;
+  problem: string;
+  role: string;
+  complexity: string;
+  technicalDepth: string;
+  outcome: string;
+};
+
+export const projects: Project[] = [
+  {
+    title: "Automated Invoice Verification Engine",
+    problem:
+      "Manual processing of high-volume supplier invoices led to recurring audit discrepancies, duplicate payments, and delayed closing cycles.",
+    role: "Lead System Architect",
+    complexity:
+      "Multi-layered approval hierarchies requiring strict conditional logic based on cost centers and signing authority matrices.",
+    technicalDepth:
+      "Implementation of a deterministic matching algorithm with robust, immutable state tracking for every state transition.",
+    outcome:
+      "Deployed a verifiable digital trail that fully automated standard approvals and resolved pre-audit discrepancies entirely, creating a unified standard across operations."
+  },
+  {
+    title: "Property Portfolio Data Aggregator",
+    problem:
+      "Fragmented financial reporting across multiple regional offices prevented real-time visibility into overall portfolio liquidity and operational expenses.",
+    role: "Systems Engineer",
+    complexity:
+      "Aggregating disparate, unstructured data schemas from five distinct legacy ERP instances into a normalized relational model.",
+    technicalDepth:
+      "Built fault-tolerant synchronization pipelines utilizing constraint-based data validation to prevent upstream corruption.",
+    outcome:
+      "Established a single, definitive source of truth for executive oversight, enabling accurate, on-demand financial reporting across the entire corporate portfolio."
+  },
+  {
+    title: "Audit-Ready Compliance Framework",
+    problem:
+      "Lack of traceability in high-value capital expenditure approvals exposed the organization to significant regulatory and compliance risks.",
+    role: "Backend Developer",
+    complexity:
+      "Integrating cryptographic logging mechanisms into standard workflow applications without disrupting established user operations.",
+    technicalDepth:
+      "Design of an append-only event sourcing architecture to guarantee non-repudiation of all managerial actions.",
+    outcome:
+      "Delivered an oversight framework that consistently passed rigorous Swiss regulatory audit requirements with zero logged exceptions."
+  }
+];
